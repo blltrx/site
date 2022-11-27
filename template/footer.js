@@ -24,11 +24,11 @@ document.write('\
             <div class="column is-nav">\
                 <div class="column-title">Social Media</div>\
                 <ul>\
-                    <li><a class="footlink" href="https://www.twitter.com/commiecatgirl7" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-open"></i>Twitter</a></li>\
-                    <li><a class="footlink" href="https://www.instagram.com/commiecatgirl7" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i>Instagram</a></li>\
+                    <li><a class="footlink" href="https://www.twitter.com/blltrxrose" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-open"></i>Twitter</a></li>\
+                    <li><a class="footlink" href="https://www.instagram.com/blltrxrose" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i>Instagram</a></li>\
                     <li><a class="footlink" href="#"><i class="fa fa-twitter"></i>Sonya Nye#7997</a></li>\
                     <li><a class="footlink" href="https://www.github.com/blltrx" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i>Github</a></li>\
-                    <li><a class="footlink" href="https://www.youtube.com/channel/UCC0YaHu--x6iRxl1p2HwF5A" target="_blank" rel="noopener noreferrer"><i class = "fa fa-twitter"></i>Youtube</i></a></li>\
+                    <li><a class="footlink" href="https://www.youtube.com/@blltrx" target="_blank" rel="noopener noreferrer"><i class = "fa fa-twitter"></i>Youtube</i></a></li>\
                 </ul>\
                 <div class="column-title">More</div>\
                 <ul>\

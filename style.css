@@ -1,21 +1,32 @@
  body{
-  padding: 50px;
   padding-top: 0px;
+  font-size:16px;
  } 
+
+ .center {
+  padding-left:  15%;
+  padding-right:15%;
+ }
+@media only screen and (min-width: 800px) {
+ .center {
+  padding-left:30%;
+  padding-right:30%;
+ }
+}
+
   h1 {
-    font-size: 3rem;
-    font-style: italic;
-    text-align: left;
-    font-family: Times New Roman;
+    font-size: 3em;
+    text-align: center;
+    font-family: monospace;
     font-weight: 400;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
   h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-style: normal;
-    text-align: left;
-    font-family: Times New Roman;
+    text-align: center;
+    font-family: monospace;
     font-weight: 400;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
@@ -25,7 +36,7 @@
     font-style: normal;
     margin-top: var(--dl-space-space-halfunit);
     text-align: left;
-    font-family: Times New Roman;
+    font-family: monospace;
     font-weight: 400;
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-halfunit);
@@ -35,7 +46,7 @@
     color: #791eb4;
     font-style: normal;
     text-align: left;
-    font-family: Times New Roman;
+    font-family: monospace;
     font-weight: 400;
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
@@ -45,13 +56,13 @@
     font-size: 1.3em;
     font-style: normal;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-weight: 400;
   }
 
   a  {
     transition: 0.3s;
-    font-family: Times New Roman;
+    font-family: monospace;
     text-decoration: underline;
   }
 
@@ -63,7 +74,7 @@
   
   blockquote {
     font-size: 18px;
-    font-family: Times New Roman;
+    font-family: monospace;
     padding-left: var(--dl-space-space-oneandhalfunits);
   } 
 
@@ -71,13 +82,14 @@
   padding: 0px;
   margin: 0px;
   transition: 0.5 s;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 30px;
+  padding-bottom: 20px;
   background-color: rgb(255, 255, 255);
   color: rgba(0, 0, 0, 0.866);
   height: 8vh;
@@ -126,7 +138,7 @@ nav .links {
   color:black;
   padding-right: 5vh;
   padding-left: 5vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   text-decoration: None;
 }
 
@@ -134,20 +146,21 @@ nav .links {
   color:rgb(255, 255, 255);
   padding-right: 5vh;
   padding-left: 5vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   text-decoration: None;
 }
 
 .footer {
   display: block;
-  width: 100%;
   position: relative;
   background: #ffffff;
-  padding: 150px 25px 50px 25px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: monospace;
+  margin-top:30px;
+  padding-top:30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top: 1px solid rgb(58, 58, 58);
 }
 .footer-start {
   display: flex;
@@ -291,9 +304,6 @@ a.button {
   .section-sub-heading {
       font-size: 18px;
   }
-  footer.footer {
-      padding-top: 0;
-  }
   a.button {
       height: 50px;
       margin-top: 10px;
@@ -306,7 +316,7 @@ a.button {
  .footlink{
   text-decoration: none;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
  }
  .footlink:hover {
   text-decoration: underline;
@@ -315,3 +325,34 @@ a.button {
  .monospaced{
   font-family: monospace;
  }
+
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    flex:100%
+  }
+}
+
+.wcontent{
+  margin-top:10px;
+  padding-top: 10px;
+  border-top:1px solid rgb(58, 58, 58);
+  margin-bottom:10px;
+  padding-bottom: 10px;
+  border-bottom:1px solid rgb(58, 58, 58);
+  text-decoration: none;
+  color: black;
+}
+
+.wcontent .a {
+  text-decoration: none;
+}
