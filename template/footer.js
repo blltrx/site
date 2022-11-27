@@ -15,7 +15,7 @@ document.write('\
             <div class="column is-nav">\
                 <div class="column-title">Navigation</div>\
                 <ul>\
-                    <li><a class="footlink" href="index">Home</a></li>\
+                    <li><a class="footlink" href="index.html">Home</a></li>\
                     <li><a class="footlink" href="w">Writing</a></li>\
                     <li><a class="footlink" href="v">Video</a></li>\
                     <li><a class="footlink" href="c">Contact</a></li>\
