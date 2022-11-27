@@ -2,9 +2,9 @@ document.write('\
     <footer class="footer">\
         <div class="inner">\
             <div class="column is-logo">\
-                <a href="index.html" class="main-logo">\
+                <a href="/index.html" class="main-logo">\
                     <div class="logo">\
-                        <img src="assets/logo.webp" alt="logo">\
+                        <img src="/assets/logo.webp" alt="logo">\
                     </div>\
                     <div class="logo-info">\
                         <div class="text">bellatrix.dev</div>\
@@ -15,10 +15,10 @@ document.write('\
             <div class="column is-nav">\
                 <div class="column-title">Navigation</div>\
                 <ul>\
-                    <li><a class="footlink" href="index.html">Home</a></li>\
-                    <li><a class="footlink" href="w">Writing</a></li>\
-                    <li><a class="footlink" href="v">Video</a></li>\
-                    <li><a class="footlink" href="c">Contact</a></li>\
+                    <li><a class="footlink" href="/index.html">Home</a></li>\
+                    <li><a class="footlink" href="/w">Writing</a></li>\
+                    <li><a class="footlink" href="/v">Video</a></li>\
+                    <li><a class="footlink" href="/c">Contact</a></li>\
                 </ul>\
             </div>\
             <div class="column is-nav">\
@@ -38,9 +38,9 @@ document.write('\
             <div class="column is-nav">\
                 <div class="column-title">Other</div>\
                 <ul>\
-                    <li><a class="footlink" href="other/styleguide.html">styleguide</a></li>\
-                    <li><a class="footlink" href="other/metapost.html">metapost</a></li>\
-                    <li><a class="footlink" href="other/twitter.html">twitter archive</a></li>\
+                    <li><a class="footlink" href="/other/styleguide.html">styleguide</a></li>\
+                    <li><a class="footlink" href="/other/metapost.html">metapost</a></li>\
+                    <li><a class="footlink" href="/other/twitter.html">twitter archive</a></li>\
                 </ul>\
             </div>\
         </div>\
