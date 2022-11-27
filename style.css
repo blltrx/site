@@ -1,0 +1,64 @@
+  h1 {
+    font-size: 3rem;
+    font-style: italic;
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight: 400;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  h2 {
+    font-size: 2.5em;
+    font-style: normal;
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight: 400;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  h3 {
+    font-size: 1.5em;
+    font-style: normal;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight: 400;
+    margin-left: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-halfunit);
+    text-transform: uppercase;
+  }
+  h4 {
+    color: #791eb4;
+    font-style: normal;
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight: 400;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-transform: uppercase;
+  }
+  h5 {
+    font-size: 1.3em;
+    font-style: normal;
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight: 400;
+  }
+
+  a  {
+    transition: 0.3s;
+    font-family: Times New Roman;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #791eb4;
+    cursor: pointer;
+  }
+  
+  blockquote {
+    font-size: 18px;
+    font-family: Times New Roman;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  } 
