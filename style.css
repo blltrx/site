@@ -31,6 +31,14 @@
     padding-top: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
+  @media only screen and (min-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 0.5em;
+    }
+   }
   h3 {
     font-size: 1.5em;
     font-style: normal;
