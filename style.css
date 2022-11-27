@@ -311,3 +311,7 @@ a.button {
  .footlink:hover {
   text-decoration: underline;
  }
+
+ .monospaced{
+  font-family: monospace;
+ }
