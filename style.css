@@ -26,7 +26,9 @@
     padding-bottom: var(--dl-space-space-halfunit);
   }
   h2 {
-    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
     font-style: normal;
     text-align: center;
     font-family: monospace;
@@ -39,7 +41,7 @@
       font-size: 1.5em;
     }
     h2 {
-      font-size: 16px;
+      font-size: 18px;
     }
    }
   h3 {
@@ -359,7 +361,7 @@ a.button {
   border-top:1px solid rgb(58, 58, 58);
   margin-bottom:10px;
   padding-bottom: 10px;
-  border-bottom:1px solid rgb(58, 58, 58);
+  /* border-bottom:1px solid rgb(58, 58, 58); */
   text-decoration: none;
   color: black;
 }

@@ -1,6 +1,5 @@
 
 document.write('\
-    <!-- Large Screen Navigation Bar -->\
     <nav>\
         <div class="logo">\
         <img class="headlogo" src = "/assets/logo.webp" alt="logo">\
@@ -13,7 +12,6 @@ document.write('\
         <strong id="mobile-menu-btn">Menu</strong>\
         </div>\
     </nav>\
-    <!-- Small Screen Navigation Bar -->\
     <div class="mobile-menu">\
         <a class = "headlinkm" href = "/index.html">Home</a>\
         <a class = "headlinkm" href = "/w">Writing</a>\

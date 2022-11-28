@@ -2,6 +2,11 @@
 Hello! This is my website! Currently its hosted via firebase, and coded from scratch. I'm quite new to html but not to coding, so apologies for all the poor formatting and redundant css.
 
 This document is essentially here to act as a metadoc for the website has a whole (not including any subdomains).
+## Todo
+DO NOT WRITE SECURITY THINGS ON THE TODO LIST PLS THAT WOULD BE A BAD CALL
+- Standardise Indentation
+- Create W Doc template
+
 
 ## Sitemap
 404.html
