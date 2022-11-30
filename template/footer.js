@@ -39,8 +39,7 @@ document.write('\
                 <div class="column-title">Other</div>\
                 <ul>\
                     <li><a class="footlink" href="/other/styleguide.html">styleguide</a></li>\
-                    <li><a class="footlink" href="/other/metapost.html">metapost</a></li>\
-                    <li><a class="footlink" href="/other/twitter.html">twitter archive</a></li>\
+                    <li><a class="footlink" href="/README.md">metapost (markdown)</a></li>\
                 </ul>\
             </div>\
         </div>\

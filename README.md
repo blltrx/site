@@ -28,5 +28,10 @@ w.html - Writing
 ### template/ - templates for pages, and pre made html stored as js
 - footer.js
 - header.js
+- template.html - basic template for development
 ### w/ - all pages for writing
-11.html - Where has UKIP gone?
+- 11.html - Where has UKIP gone?
+
+### v/ - all pages for videos
+- 1.html - Young - Lullaby
+- 4.html - Blue Sushi
